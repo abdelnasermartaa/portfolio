@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+
+.img
+{
+background: url(1.jpg);
+min-height:100vh ;
+background-size: cover;
+background-position: center;
+
+}
+
+.img:after{
+position: absolute;
+content: '';
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+background: rgba( 0 , 0 , 0 , 0.5);
+
+
+}
+
+.content{
+    position: absolute;
+top: 55%;
+left: 50%;
+text-align: center;
+padding: 70px 32px;
+width: 350px;
+height: 450px;
+background: rgba(2, 2, 2, 0.393);
+box-shadow: -1px 4px 28px 0px rgb(243, 235, 4) ; 
+z-index: 9;
+transform: translate(-50%,-50%);
+
+border-radius: 16px;
+
+}
+
+ h2{
+color: rgb(255, 255, 255);
+font-size: 30px;
+margin: 0 0 60px 0;
+
+border: none;
+padding: none;
+border-radius: 10px;
+margin-top: -40px;
+font-family: Arial, Helvetica, sans-serif ;
+
+}
+
+.filed{
+    position: relative;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    background:rgba(227, 217, 217, 0.94) ;
+    border-radius: 15px;
+
+
+
+
+}
+
+.filed input{
+    height: 100%;
+    width: 100%;
+    color: #000000;
+    font-size: 15px;
+    text-align: left;
+    margin-left: 5px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+   
+
+}
+
+
+.space{
+margin-top: 20px;
+
+}
+
+.show{
+position: absolute;
+right: 10px;
+font-size: 10px;
+color: #222;
+font-weight: 700;
+cursor: pointer;
+line-height: 30px;
+font-family: system-ui ;
+
+
+}
+
+.pass-key:void .show{
+display: block;
+    
+}
+
+.filed1 input{
+background: rgb(255, 183, 0);
+color: black;
+border: none;
+width: 40%;
+padding: 5px;
+border-radius: 13px;
+cursor: pointer;
+font-size: 16px;
+margin-top: 40px;
+
+
+}
+
+.filed1 input:hover{
+    background: #3f7294;
+
+}
+
+.filed1 input:active{
+background-color: aqua;
+
+}
+
+.signup{
+
+color: white;
+margin-top: 40px;
+font-family: sans-serif;
+
+}
+
+.signup a{
+
+color: #31adff;
+text-decoration: none;
+
+
+}
+
+.signup a:hover{
+text-decoration: underline;
+
+}
+
+.signup :active{
+
+    background-color: aqua;
+}
+
+.aaa{
+
+margin-top: -420px;
+margin-left: -80px;
+margin-right: -80px;
+font-size: 30px;
+color: rgb(0, 255, 47);
+
+
+}
+
